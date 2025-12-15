@@ -1,6 +1,8 @@
-x = 5
-y = 10
-avg = (x + y) // 2
-x += avg
-print(x)
-x=12
+num1 = 15
+num = 25
+ 합계산
+total = numl + num2
+print ("합:", total)
+
+average = total/2
+print("평균:", average)
