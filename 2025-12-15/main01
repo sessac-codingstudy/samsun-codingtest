@@ -1,0 +1,41 @@
+try:
+    a, b, c = map(int, input().split())
+    total_sum = a + b + c
+    average = total_sum // 3
+    difference = total_sum - average
+    print(total_sum)
+    print(average)
+    print(difference)
+except ValueError:
+    print("잘못된 입력입니다. 세 개의 정수를 공백으로 구분하여 입력해 주세요.")
+    
+# 사용자 입력 처리: 세 정수 a, b, c를 공백으로 구분하여 한 줄에 입력받습니다.
+# 입력 예시: 10 20 30
+try:
+    # map(int, input().split())을 사용하여 입력받은 문자열을 공백으로 나누고
+    # 각 요소를 정수(int)로 변환한 후 a, b, c 변수에 할당합니다.
+    a, b, c = map(int, input().split())
+
+    # 1. 합계 (Sum) 계산
+    total_sum = a + b + c
+
+    # 2. 평균 (Average) 계산
+    # 문제에서 합이 3의 배수임을 가정했으므로, 정수 나눗셈(//)을 사용하거나
+    # 일반 나눗셈(/) 후 정수형으로 변환해도 좋습니다. 여기서는 정수 나눗셈을 사용합니다.
+    average = total_sum // 3
+
+    # 3. 합에서 평균을 뺀 값 (Difference) 계산
+    difference = total_sum - average
+
+    # 결과 출력
+    # 첫 번째 줄: 합계
+    print(total_sum)
+
+    # 두 번째 줄: 평균
+    print(average)
+
+    # 세 번째 줄: 합에서 평균을 뺀 값
+    print(difference)
+
+except ValueError:
+    print("잘못된 입력입니다. 세 개의 정수를 공백으로 구분하여 입력해 주세요.")

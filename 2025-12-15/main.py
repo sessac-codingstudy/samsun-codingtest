@@ -2,9 +2,10 @@ inp = input()
 arr = inp.split()
 a = int(arr[0])
 b = int(arr[1])
-
-print(f"{a + b} {(a + b) / 2:.1f}")
-
+c = int(arr[2])
+print(f"{a + b + c}")
+print(f"{(a + b + c) / 2}")
+print(f"{a + b + c} - {(a + b + c) / 2}")
 inp = input() #  한 줄의 문자열 입력. 예: "10 20"
 arr = inp.split() # 입력받은 문자열을 공백(띄어쓰기)을 기준으로 나누어 리스트(arr)에 저장. 예: ["2", "5"]
 a = int(arr[0]) # 리스트의 첫 번째 요소(문자열)를 정수형(integer)으로 변환하여 변수 a에 저장. 예: a = 2
