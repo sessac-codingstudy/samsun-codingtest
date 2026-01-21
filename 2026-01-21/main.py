@@ -1,8 +1,6 @@
-num1 = 15
-num = 25
- 합계산
-total = numl + num2
-print ("합:", total)
+#if - else문
+#if 조건: 조건이 True일때 실행되는 코드
+#else :조건이 False일때 실행되는 코드 
 
-average = total/2
-print("평균:", average)
+if-else문에서 else의 역할은 무엇인가요?
+답 조건이 거짓일때 실행되는 코드 
