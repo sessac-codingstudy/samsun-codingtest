@@ -1,7 +1,7 @@
 inp = input()
 arr = inp.split()
 a = int(arr[0])
-b = int(arr[1])
+b = int(arr[1])ㄴㅇㄹㄴㅁㄹ
 c = int(arr[2])
 print(f"{a + b + c}")
 print(f"{(a + b + c) / 2}")
